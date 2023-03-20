@@ -1,7 +1,7 @@
 print("Boy Kilo İndexi Hesaplama")
 while True:
-    boy = float(input("\nLütfen boy(m) ölçünüzü girin (ör: 1.60) : "))
-    kilo = int(input("\nLütfen kilo(kg) ölçünüzü girin (ör: 45) : "))
+    boy = float(input("\nLütfen metre cinsinden boyunuzu giriniz (ör: 1.60) : "))
+    kilo = int(input("\nLütfen kilogram cinsinden kilonuzu giriniz (ör: 45) : "))
     boykiloindexi = kilo / boy ** 2
     if boykiloindexi <= 18.5:
         print("\nDurumunuz : 'ZAYIF'",boykiloindexi)
