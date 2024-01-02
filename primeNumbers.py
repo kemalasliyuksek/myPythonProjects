@@ -29,7 +29,6 @@ def primeNumbers(x):
     return primeNumbersList
 
 print('-- PRIME NUMBERS --')
-
 x = int(input('Value : '))
 print('\nPrime Numbers up to', x, ':    ', primeNumbers(x))
 input('\nTo exit, press Q and press enter.  ').upper()
