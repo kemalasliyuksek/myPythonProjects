@@ -28,6 +28,8 @@ def primeNumbers(x):
             primeNumbersList.append(i)
     return primeNumbersList
 
-x = int(input('Value : '))
-print('Prime Numbers up to', x, ':', primeNumbers(x))
+print('-- PRIME NUMBERS --')
 
+x = int(input('Value : '))
+print('\nPrime Numbers up to', x, ':    ', primeNumbers(x))
+input('\nTo exit, press Q and press enter.  ').upper()
